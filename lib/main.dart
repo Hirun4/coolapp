@@ -11,10 +11,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.green,
-        title: const Text('flutter is fun'),
-      ),
-    ));
+            appBar: AppBar(
+              backgroundColor: Colors.green,
+              title: const Text('flutter is fun'),
+            ),
+            body: Container(
+              child: const Text('Hi hirun 😎'),
+            )));
   }
 }
