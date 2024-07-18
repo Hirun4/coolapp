@@ -16,9 +16,11 @@ class MyApp extends StatelessWidget {
               title: const Text('flutter is fun'),
             ),
             body: Container(
-              child: const Text('Hi hirun 😎'),
-              margin: const EdgeInsets.all(50),
-              padding: const EdgeInsets.all(10),
-            )));
+                child: const Text('Hi hirun 😎'),
+                margin: const EdgeInsets.all(50),
+                padding: const EdgeInsets.all(10),
+                color: Colors.red,
+                height: 100,
+                width: 100)));
   }
 }
