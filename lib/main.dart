@@ -23,7 +23,14 @@ class MyApp extends StatelessWidget {
             //     color: Colors.red,
             //     height: 100,
             //     width: 100),
-            body: Column(
+            // body: Column(
+            //   children: const [
+            //     Icon(Icons.backpack),
+            //     Icon(Icons.leaderboard),
+            //     Icon(Icons.person)
+            //   ],
+            // ),
+            body: Row(
               children: const [
                 Icon(Icons.backpack),
                 Icon(Icons.leaderboard),
