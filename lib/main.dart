@@ -31,6 +31,7 @@ class MyApp extends StatelessWidget {
             //   ],
             // ),
             body: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
                 Icon(Icons.backpack),
                 Icon(Icons.leaderboard),
