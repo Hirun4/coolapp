@@ -34,7 +34,10 @@ class MyApp extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.start,
               children: const [
-                Icon(Icons.backpack),
+                Expanded(
+                  flex: 4,
+                  child: Icon(Icons.backpack),
+                ),
                 Icon(Icons.leaderboard),
                 Icon(Icons.person)
               ],
