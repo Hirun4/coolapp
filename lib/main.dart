@@ -30,17 +30,20 @@ class MyApp extends StatelessWidget {
             //     Icon(Icons.person)
             //   ],
             // ),
-            body: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: const [
-                Expanded(
-                  flex: 4,
-                  child: Icon(Icons.backpack),
-                ),
-                Icon(Icons.leaderboard),
-                Icon(Icons.person)
-              ],
+            // body: Row(
+            //   mainAxisAlignment: MainAxisAlignment.center,
+            //   crossAxisAlignment: CrossAxisAlignment.start,
+            //   children: const [
+            //     Expanded(
+            //       flex: 4,
+            //       child: Icon(Icons.backpack),
+            //     ),
+            //     Icon(Icons.leaderboard),
+            //     Icon(Icons.person)
+            //   ],
+            // ),
+            body: Stack(
+              children: const [],
             )));
   }
 }
