@@ -10,40 +10,42 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        home: Scaffold(
-            appBar: AppBar(
-              backgroundColor: Colors.green,
-              title: const Text('flutter is fun'),
-            ),
-            // body: Container(
-            //     child: const Text('Hi hirun 😎'),
-            //     margin: const EdgeInsets.all(50),
-            //     padding: const EdgeInsets.all(10),
-            //     color: Colors.red,
-            //     height: 100,
-            //     width: 100),
-            // body: Column(
-            //   children: const [
-            //     Icon(Icons.backpack),
-            //     Icon(Icons.leaderboard),
-            //     Icon(Icons.person)
-            //   ],
-            // ),
-            // body: Row(
-            //   mainAxisAlignment: MainAxisAlignment.center,
-            //   crossAxisAlignment: CrossAxisAlignment.start,
-            //   children: const [
-            //     Expanded(
-            //       flex: 4,
-            //       child: Icon(Icons.backpack),
-            //     ),
-            //     Icon(Icons.leaderboard),
-            //     Icon(Icons.person)
-            //   ],
-            // ),
-            body: Stack(
-              children: const [],
-            )));
+      debugShowCheckedModeBanner: false,
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.green,
+          title: const Text('flutter is fun'),
+        ),
+        // body: Container(
+        //     child: const Text('Hi hirun 😎'),
+        //     margin: const EdgeInsets.all(50),
+        //     padding: const EdgeInsets.all(10),
+        //     color: Colors.red,
+        //     height: 100,
+        //     width: 100),
+        // body: Column(
+        //   children: const [
+        //     Icon(Icons.backpack),
+        //     Icon(Icons.leaderboard),
+        //     Icon(Icons.person)
+        //   ],
+        // ),
+        // body: Row(
+        //   mainAxisAlignment: MainAxisAlignment.center,
+        //   crossAxisAlignment: CrossAxisAlignment.start,
+        //   children: const [
+        //     Expanded(
+        //       flex: 4,
+        //       child: Icon(Icons.backpack),
+        //     ),
+        //     Icon(Icons.leaderboard),
+        //     Icon(Icons.person)
+        //   ],
+        // ),
+        body: Stack(
+          children: const [],
+        ),
+      ),
+    );
   }
 }
