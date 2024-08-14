@@ -43,7 +43,7 @@ class MyApp extends StatelessWidget {
         //   ],
         // ),
         body: Stack(
-          children: const [],
+          children: const [Container(), Icon(Icons.verified)],
         ),
       ),
     );
