@@ -43,7 +43,14 @@ class MyApp extends StatelessWidget {
         //   ],
         // ),
         body: Stack(
-          children: const [Container(), Icon(Icons.verified)],
+          children: [
+            Container(
+              color: Colors.red,
+              width: 100,
+              height: 100,
+            ),
+            const Icon(Icons.verified)
+          ],
         ),
       ),
     );
