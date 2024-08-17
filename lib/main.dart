@@ -49,7 +49,7 @@ class MyApp extends StatelessWidget {
               width: 100,
               height: 100,
             ),
-            const Icon(Icons.verified)
+            Positioned(child: Icon(Icons.verified))
           ],
         ),
       ),
