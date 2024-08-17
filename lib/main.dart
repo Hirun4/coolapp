@@ -49,7 +49,11 @@ class MyApp extends StatelessWidget {
               width: 100,
               height: 100,
             ),
-            Positioned(child: Icon(Icons.verified))
+            Positioned(
+              child: Icon(Icons.verified),
+              top: 25,
+              left: 25,
+            )
           ],
         ),
       ),
