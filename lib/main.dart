@@ -16,6 +16,13 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.green,
           title: const Text('flutter is fun'),
         ),
+
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          onPressed: (){
+            print('pressed!')
+          },
+        ),
         // body: Container(
         //     child: const Text('Hi hirun 😎'),
         //     margin: const EdgeInsets.all(50),
@@ -42,20 +49,20 @@ class MyApp extends StatelessWidget {
         //     Icon(Icons.person)
         //   ],
         // ),
-        body: Stack(
-          children: [
-            Container(
-              color: Colors.red,
-              width: 100,
-              height: 100,
-            ),
-            Positioned(
-              child: Icon(Icons.verified),
-              top: 25,
-              left: 25,
-            )
-          ],
-        ),
+        // body: Stack(
+        //   children: [
+        //     Container(
+        //       color: Colors.red,
+        //       width: 100,
+        //       height: 100,
+        //     ),
+        //     Positioned(
+        //       child: Icon(Icons.verified),
+        //       top: 25,
+        //       left: 25,
+        //     )
+        //   ],
+        // ),
       ),
     );
   }
