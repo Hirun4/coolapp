@@ -19,8 +19,8 @@ class MyApp extends StatelessWidget {
 
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
-          onPressed: (){
-            print('pressed!')
+          onPressed: () {
+            print('pressed!');
           },
         ),
         // body: Container(
