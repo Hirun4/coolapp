@@ -23,6 +23,18 @@ class MyApp extends StatelessWidget {
             print('pressed!');
           },
         ),
+        bottomNavigationBar: BottomNavigationBar(
+          items: const [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.home),
+              label: 'Home',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.business),
+              label: 'Business',
+            ),
+          ],
+        ),
         // body: Container(
         //     child: const Text('Hi hirun 😎'),
         //     margin: const EdgeInsets.all(50),
