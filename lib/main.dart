@@ -33,6 +33,10 @@ class MyApp extends StatelessWidget {
               icon: Icon(Icons.business),
               label: 'Business',
             ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.school),
+              label: 'School',
+            ),
           ],
         ),
         // body: Container(
