@@ -39,6 +39,8 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
+
+        drawer: Drawer(),
         // body: Container(
         //     child: const Text('Hi hirun 😎'),
         //     margin: const EdgeInsets.all(50),
