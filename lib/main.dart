@@ -17,30 +17,35 @@ class MyApp extends StatelessWidget {
           title: const Text('flutter is fun'),
         ),
 
-        floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
-          onPressed: () {
-            print('pressed!');
-          },
-        ),
-        bottomNavigationBar: BottomNavigationBar(
-          items: const [
-            BottomNavigationBarItem(
-              icon: Icon(Icons.home),
-              label: 'Home',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.business),
-              label: 'Business',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(Icons.school),
-              label: 'School',
-            ),
-          ],
+        body: ListView(
+          scrollDirection: Axis.horizontal,
+          children: [],
         ),
 
-        drawer: Drawer(),
+        // floatingActionButton: FloatingActionButton(
+        //   child: Icon(Icons.add),
+        //   onPressed: () {
+        //     print('pressed!');
+        //   },
+        // ),
+        // bottomNavigationBar: BottomNavigationBar(
+        //   items: const [
+        //     BottomNavigationBarItem(
+        //       icon: Icon(Icons.home),
+        //       label: 'Home',
+        //     ),
+        //     BottomNavigationBarItem(
+        //       icon: Icon(Icons.business),
+        //       label: 'Business',
+        //     ),
+        //     BottomNavigationBarItem(
+        //       icon: Icon(Icons.school),
+        //       label: 'School',
+        //     ),
+        //   ],
+        // ),
+
+        // drawer: Drawer(),
         // body: Container(
         //     child: const Text('Hi hirun 😎'),
         //     margin: const EdgeInsets.all(50),
