@@ -17,9 +17,14 @@ class MyApp extends StatelessWidget {
           title: const Text('flutter is fun'),
         ),
 
-        body: ListView(
-          scrollDirection: Axis.horizontal,
-          children: [],
+        body: ListView.builder(
+          itemBuilder: (_, index) {
+            return Container(
+              color: Colors.red,
+              width: 500,
+              height: 500,
+            );
+          },
         ),
 
         // floatingActionButton: FloatingActionButton(
