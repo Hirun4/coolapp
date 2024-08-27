@@ -4,9 +4,15 @@ void main() {
   runApp(MyApp());
 }
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
   const MyApp({super.key});
 
+  @override
+  State<MyApp> createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  int count = 0;
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -17,15 +23,15 @@ class MyApp extends StatelessWidget {
           title: const Text('flutter is fun'),
         ),
 
-        body: ListView.builder(
-          itemBuilder: (_, index) {
-            return Container(
-              color: Colors.red,
-              width: 500,
-              height: 500,
-            );
-          },
-        ),
+        // body: ListView.builder(
+        //   itemBuilder: (_, index) {
+        //     return Container(
+        //       color: Colors.red,
+        //       width: 500,
+        //       height: 500,
+        //     );
+        //   },
+        // ),
 
         // floatingActionButton: FloatingActionButton(
         //   child: Icon(Icons.add),
