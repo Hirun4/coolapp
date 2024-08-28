@@ -33,12 +33,21 @@ class _MyAppState extends State<MyApp> {
         //   },
         // ),
 
-        // floatingActionButton: FloatingActionButton(
-        //   child: Icon(Icons.add),
-        //   onPressed: () {
-        //     print('pressed!');
-        //   },
-        // ),
+        floatingActionButton: FloatingActionButton(
+          child: Icon(Icons.add),
+          onPressed: () {
+            setState(() {
+              count++;
+            });
+          },
+        ),
+
+        body: Center(
+          child: Text(
+            '$count',
+            style: TextStyle(fontSize: 60),
+          ),
+        ),
         // bottomNavigationBar: BottomNavigationBar(
         //   items: const [
         //     BottomNavigationBarItem(
